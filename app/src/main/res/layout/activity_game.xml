@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/layout"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.j.zaggy.GameActivity">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true">
 
     <ImageView
         android:layout_width="wrap_content"
@@ -43,77 +38,7 @@
         android:layout_alignParentRight="false"
         android:layout_alignParentStart="false"
         android:layout_alignParentEnd="false"
-        android:id="@+id/pillar1" />
-
-    <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
-        app:srcCompat="@drawable/pillar"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentEnd="false"
-        android:id="@+id/pillar2" />
-
-    <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
-        app:srcCompat="@drawable/pillar"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentEnd="false"
-        android:id="@+id/pillar3" />
-
-    <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
-        app:srcCompat="@drawable/pillar"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentEnd="false"
-        android:id="@+id/pillar4" />
-
-    <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
-        app:srcCompat="@drawable/pillar"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentEnd="false"
-        android:id="@+id/pillar5" />
-
-    <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
-        app:srcCompat="@drawable/pillar"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentEnd="false"
-        android:id="@+id/pillar6" />
-
-    <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
-        app:srcCompat="@drawable/pillar"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentEnd="false"
-        android:id="@+id/pillar7" />
-
-    <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
-        app:srcCompat="@drawable/pillar"
-        android:layout_alignParentLeft="false"
-        android:layout_alignParentRight="false"
-        android:layout_alignParentStart="false"
-        android:layout_alignParentEnd="false"
-        android:id="@+id/pillar8" />
+        android:id="@+id/pillar10" />
 
     <ImageView
         android:layout_width="79dp"
@@ -133,7 +58,77 @@
         android:layout_alignParentRight="false"
         android:layout_alignParentStart="false"
         android:layout_alignParentEnd="false"
-        android:id="@+id/pillar10" />
+        android:id="@+id/pillar8" />
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/pillar"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/pillar7" />
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/pillar"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/pillar6" />
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/pillar"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/pillar5" />
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/pillar"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/pillar4" />
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/pillar"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/pillar3" />
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/pillar"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/pillar2" />
+
+    <ImageView
+        android:layout_width="79dp"
+        android:layout_height="142dp"
+        app:srcCompat="@drawable/pillar"
+        android:layout_alignParentLeft="false"
+        android:layout_alignParentRight="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentEnd="false"
+        android:id="@+id/pillar1" />
 
     <ImageView
         android:layout_width="24dp"
