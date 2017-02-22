@@ -87,10 +87,10 @@ public class GameActivity extends AppCompatActivity {
         logo.setVisibility(View.INVISIBLE);
         playBtn.setVisibility(View.INVISIBLE);
 
-        pillar1.setX(320);
+        pillar1.setX(335);
         pillar1.setY(768);
-        ball.setX(330);
-        ball.setY(820);
+        ball.setX(320);
+        ball.setY(520);
         pillar2.setX(pillar1.getX() + 78);
         pillar2.setY(pillar1.getY() - 55);
         pillar3.setX(pillar2.getX() + 78);
@@ -171,34 +171,44 @@ public class GameActivity extends AppCompatActivity {
                pillar10.setY(pillar10.getY() + 5);
                ball.setY(ball.getY() + 0.5f);
 
-               if(checkPillarPosition(pillar1.getY()) == true) {
+               if(checkPillarPosition(pillar1.getY())) {
+                   sendViewToBack(pillar1);
                    pillar1.setX(pillarPlacementX(pillar10.getX()));
                    pillar1.setY(pillarPlacementY(pillar10.getY()));
-               } else if(checkPillarPosition(pillar2.getY()) == true) {
+               } else if(checkPillarPosition(pillar2.getY())) {
+                   sendViewToBack(pillar2);
                    pillar2.setX(pillarPlacementX(pillar1.getX()));
                    pillar2.setY(pillarPlacementY(pillar1.getY()));
-               } else if(checkPillarPosition(pillar3.getY()) == true) {
+               } else if(checkPillarPosition(pillar3.getY())) {
+                   sendViewToBack(pillar3);
                    pillar3.setX(pillarPlacementX(pillar2.getX()));
                    pillar3.setY(pillarPlacementY(pillar2.getY()));
-               } else if(checkPillarPosition(pillar4.getY()) == true) {
+               } else if(checkPillarPosition(pillar4.getY())) {
+                   sendViewToBack(pillar4);
                    pillar4.setX(pillarPlacementX(pillar3.getX()));
                    pillar4.setY(pillarPlacementY(pillar3.getY()));
-               } else if(checkPillarPosition(pillar5.getY()) == true) {
+               } else if(checkPillarPosition(pillar5.getY())) {
+                   sendViewToBack(pillar5);
                    pillar5.setX(pillarPlacementX(pillar4.getX()));
                    pillar5.setY(pillarPlacementY(pillar4.getY()));
-               } else if(checkPillarPosition(pillar6.getY()) == true) {
+               } else if(checkPillarPosition(pillar6.getY())) {
+                   sendViewToBack(pillar6);
                    pillar6.setX(pillarPlacementX(pillar5.getX()));
                    pillar6.setY(pillarPlacementY(pillar5.getY()));
-               } else if(checkPillarPosition(pillar7.getY()) == true) {
+               } else if(checkPillarPosition(pillar7.getY())) {
+                   sendViewToBack(pillar7);
                    pillar7.setX(pillarPlacementX(pillar6.getX()));
                    pillar7.setY(pillarPlacementY(pillar6.getY()));
-               } else if(checkPillarPosition(pillar8.getY()) == true) {
+               } else if(checkPillarPosition(pillar8.getY())) {
+                   sendViewToBack(pillar8);
                    pillar8.setX(pillarPlacementX(pillar7.getX()));
                    pillar8.setY(pillarPlacementY(pillar7.getY()));
-               } else if(checkPillarPosition(pillar9.getY()) == true) {
+               } else if(checkPillarPosition(pillar9.getY())) {
+                   sendViewToBack(pillar9);
                    pillar9.setX(pillarPlacementX(pillar8.getX()));
                    pillar9.setY(pillarPlacementY(pillar8.getY()));
-               } else if(checkPillarPosition(pillar10.getY()) == true) {
+               } else if(checkPillarPosition(pillar10.getY())) {
+                   sendViewToBack(pillar10);
                    pillar10.setX(pillarPlacementX(pillar9.getX()));
                    pillar10.setY(pillarPlacementY(pillar9.getY()));
                }
@@ -210,14 +220,14 @@ public class GameActivity extends AppCompatActivity {
 
     public static void sendViewToBack(final View child) {
         final ViewGroup parent = (ViewGroup) child.getParent();
-        if(null != parent) {
+        if(parent != null) {
             parent.removeView(child);
             parent.addView(child, 0);
         }
     }
 
     public boolean checkPillarPosition(float y) {
-        if(y > 1200f) {
+        if(y > 1250f) {
             return true;
         }
         return false;
