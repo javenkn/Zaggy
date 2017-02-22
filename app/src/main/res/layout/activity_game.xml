@@ -7,8 +7,8 @@
     android:clickable="true">
 
     <ImageView
-        android:layout_width="65dp"
-        android:layout_height="50dp"
+        android:layout_width="85dp"
+        android:layout_height="70dp"
         app:srcCompat="@drawable/pillartop"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -17,8 +17,8 @@
         android:id="@+id/pillarTop1" />
 
     <ImageView
-        android:layout_width="65dp"
-        android:layout_height="50dp"
+        android:layout_width="85dp"
+        android:layout_height="70dp"
         app:srcCompat="@drawable/pillartop"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -27,8 +27,8 @@
         android:id="@+id/pillarTop2" />
 
     <ImageView
-        android:layout_width="65dp"
-        android:layout_height="50dp"
+        android:layout_width="85dp"
+        android:layout_height="70dp"
         app:srcCompat="@drawable/pillartop"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -37,8 +37,8 @@
         android:id="@+id/pillarTop3" />
 
     <ImageView
-        android:layout_width="65dp"
-        android:layout_height="50dp"
+        android:layout_width="85dp"
+        android:layout_height="70dp"
         app:srcCompat="@drawable/pillartop"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -47,8 +47,8 @@
         android:id="@+id/pillarTop4" />
 
     <ImageView
-        android:layout_width="65dp"
-        android:layout_height="50dp"
+        android:layout_width="85dp"
+        android:layout_height="70dp"
         app:srcCompat="@drawable/pillartop"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -57,8 +57,8 @@
         android:id="@+id/pillarTop5" />
 
     <ImageView
-        android:layout_width="65dp"
-        android:layout_height="50dp"
+        android:layout_width="85dp"
+        android:layout_height="70dp"
         app:srcCompat="@drawable/pillartop"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -75,24 +75,12 @@
         android:layout_centerHorizontal="true"
         android:paddingLeft="@dimen/activity_vertical_margin"
         android:paddingRight="@dimen/activity_vertical_margin"
-        android:id="@+id/logo" />
-
-    <Button
-        android:id="@+id/playBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="208dp"
-        android:gravity="center_vertical|center_horizontal"
-        android:paddingLeft="@dimen/activity_vertical_margin"
-        android:paddingRight="@dimen/activity_vertical_margin"
-        android:paddingTop="@dimen/activity_horizontal_margin"
-        android:text="Play" />
+        android:id="@+id/logo"
+        android:layout_alignBottom="@+id/retryBtn" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -101,8 +89,8 @@
         android:id="@+id/pillar20" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -111,8 +99,8 @@
         android:id="@+id/pillar19" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -121,8 +109,8 @@
         android:id="@+id/pillar18" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -131,8 +119,8 @@
         android:id="@+id/pillar17" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -141,8 +129,8 @@
         android:id="@+id/pillar16" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -151,8 +139,8 @@
         android:id="@+id/pillar15" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -161,8 +149,8 @@
         android:id="@+id/pillar14" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -171,8 +159,8 @@
         android:id="@+id/pillar13" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -181,8 +169,8 @@
         android:id="@+id/pillar12" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -191,8 +179,8 @@
         android:id="@+id/pillar11" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -201,8 +189,8 @@
         android:id="@+id/pillar10" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -211,8 +199,8 @@
         android:id="@+id/pillar9" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -221,8 +209,8 @@
         android:id="@+id/pillar8" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -231,8 +219,8 @@
         android:id="@+id/pillar7" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -241,8 +229,8 @@
         android:id="@+id/pillar6" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -251,8 +239,8 @@
         android:id="@+id/pillar5" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -261,8 +249,8 @@
         android:id="@+id/pillar4" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -271,8 +259,8 @@
         android:id="@+id/pillar3" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -281,8 +269,8 @@
         android:id="@+id/pillar2" />
 
     <ImageView
-        android:layout_width="79dp"
-        android:layout_height="142dp"
+        android:layout_width="87dp"
+        android:layout_height="150dp"
         app:srcCompat="@drawable/pillar"
         android:layout_alignParentLeft="false"
         android:layout_alignParentRight="false"
@@ -303,23 +291,6 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/logo"
-        app:srcCompat="@drawable/gameover"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="33dp"
-        android:id="@+id/gameOver" />
-
-    <Button
-        android:id="@+id/retryBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/playBtn"
-        android:layout_centerVertical="true"
-        android:text="Retry" />
-
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         app:srcCompat="@drawable/score"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
@@ -330,36 +301,70 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/score"
-        android:layout_alignTop="@+id/scoreBoard"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp"
+        android:layout_marginBottom="33dp"
         android:gravity="center"
         android:text="0"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:textSize="30sp"
-        android:id="@+id/scoreOnBoard" />
+        android:id="@+id/highScoreOnBoard"
+        android:layout_alignBottom="@+id/scoreBoard"
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/score"
-        android:layout_alignTop="@+id/scoreBoard"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="19dp"
-        android:gravity="center"
         android:text="0"
-        android:textAppearance="?android:attr/textAppearanceSmall"
         android:textSize="30sp"
-        android:id="@+id/highScoreOnBoard" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/score"
+        android:id="@+id/score"
         android:layout_alignParentTop="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
+        android:layout_marginRight="13dp"
+        android:layout_marginEnd="13dp" />
+
+    <Button
+        android:id="@+id/retryBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retry"
+        android:layout_above="@+id/scoreBoard"
+        android:layout_alignLeft="@+id/playBtn"
+        android:layout_alignStart="@+id/playBtn"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingLeft="@dimen/activity_vertical_margin"
+        android:paddingRight="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_horizontal_margin"
+        android:text="Play"
+        android:layout_above="@+id/scoreBoard"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/gameover"
+        android:id="@+id/gameOver"
+        android:layout_alignBottom="@+id/pillar20"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/score"
+        android:layout_marginTop="54dp"
+        android:gravity="center"
         android:text="0"
+        android:textAppearance="?android:attr/textAppearanceSmall"
         android:textSize="30sp"
-        android:id="@+id/score" />
+        android:id="@+id/scoreOnBoard"
+        android:layout_below="@+id/retryBtn"
+        android:layout_alignLeft="@+id/highScoreOnBoard"
+        android:layout_alignStart="@+id/highScoreOnBoard" />
 </RelativeLayout>
